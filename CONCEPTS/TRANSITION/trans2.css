@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eee;
+}
+div{
+     width: 300px;
+     height: 300px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     line-height: 300px;
+     margin: -150px;
+     background: rgb(245, 244, 246);
+     color: rgb(248, 246, 244);
+     text-align: center;
+     font-size: 40px;
+     box-shadow: 0 0 15px rgba(250, 6, 6, 0.1);
+     animation-name: dinga;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate-reverse;
+
+}
+@keyframes dinga{
+    from{border-radius: 0px; background-color: rgb(123, 30, 210);}
+    to{border-radius: 100px; background-color: rgb(0, 2, 7);}
+}

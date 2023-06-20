@@ -1,0 +1,18 @@
+h1{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    text-align: center;
+}
+nav>h1:hover{
+    background-color: orange;
+    color: blueviolet;
+}
+nav>img{
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+nav:hover{
+    background-color: purple;
+}

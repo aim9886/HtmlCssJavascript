@@ -1,0 +1,17 @@
+p:first-child{
+    color: red;
+}
+p:last-child{
+    color: green;
+}
+p:nth-child(3){
+    background-color: blue;
+}
+p::first-line{
+    font-size: 30px;
+    color: rgb(238, 10, 20);
+}
+p~div::first-letter{
+    font-size: 30px;
+    color: aqua;
+}

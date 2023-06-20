@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup and Login Form Validation</title>
+  <style>
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Signup</h1>
+
+  <form id="signupForm" onsubmit="validateSignup(event)">
+    <div>
+      <label for="signupName">Name:</label>
+      <input type="text" id="signupName" name="name" required>
+      <span id="signupNameError" class="error"></span>
+    </div>
+    <div>
+      <label for="signupEmail">Email:</label>
+      <input type="email" id="signupEmail" name="email" required>
+      <span id="signupEmailError" class="error"></span>
+    </div>
+    <div>
+      <label for="signupPassword">Password:</label>
+      <input type="password" id="signupPassword" name="password" required>
+      <span id="signupPasswordError" class="error"></span>
+    </div>
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <h1>Login</h1>
+
+  <form id="loginForm" onsubmit="validateLogin(event)">
+    <div>
+      <label for="loginEmail">Email:</label>
+      <input type="email" id="loginEmail" name="email" required>
+      <span id="loginEmailError" class="error"></span>
+    </div>
+    <div>
+      <label for="loginPassword">Password:</label>
+      <input type="password" id="loginPassword" name="password" required>
+      <span id="loginPasswordError" class="error"></span>
+    </div>
+    <button type="submit">Login</button>
+  </form>
+
+  <script>
+    function validateSignup(event) {
+      event.preventDefault();
+
+      var signupNameInput = document.getElementById("signupName");
+      var signupEmailInput = document.getElementById("signupEmail");
+      var signupPasswordInput = document.getElementById("signupPassword");
+
+      var signupNameError = document.getElementById("signupNameError");
+      var signupEmailError = document.getElementById("signupEmailError");
+      var signupPasswordError = document.getElementById("signupPasswordError");
+
+      // Reset error messages
+      signupNameError.textContent = "";
+      signupEmailError.textContent = "";
+      signupPasswordError.textContent = "";
+
+      // Validate name field
+      if (signupNameInput.value === "") {
+        signupNameError.textContent = "Name is required.";
+        signupNameInput.focus();
+        return false;
+      }
+
+      // Validate email field
+      if (signupEmailInput.value === "") {
+        signupEmailError.textContent = "Email is required.";
+        signupEmailInput.focus();
+        return false;
+      }
+
+      // Validate password field
+      if (signupPasswordInput.value === "") {
+        signupPasswordError.textContent = "Password is required.";
+        signupPasswordInput.focus();
+        return false;
+      }
+
+      // Submit the form if all fields are valid
+      alert("Signup form submitted successfully!");
+      document.getElementById("signupForm").reset();
+    }
+
+    function validateLogin(event) {
+      event.preventDefault();
+
+      var loginEmailInput = document.getElementById("loginEmail");
+      var loginPasswordInput = document.getElementById("loginPassword");
+
+      var loginEmailError = document.getElementById("loginEmailError");
+      var loginPasswordError = document.getElementById("loginPasswordError");
+
+      // Reset error messages
+      loginEmailError.textContent = "";
+      loginPasswordError.textContent = "";
+
+      // Validate email field
+      if (loginEmailInput.value === "") {
+        loginEmailError.textContent = "Email is required.";
+        loginEmailInput.focus();
+        return false;
+      }
+
+      // Validate password field
+      if (loginPasswordInput.value === "") {
+        loginPasswordError.textContent = "Password is required.";
+        loginPasswordInput.focus();
+        return false;
+      }
+
+      // Submit the form if all fields are valid
+      alert("Login form submitted successfully!");
+      document.getElementById("loginForm").reset();
+    }
+  </script>
+</body>
+</html>

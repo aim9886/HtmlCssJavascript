@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+nav{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 10px 20px 100px blue;
+}
+#div1{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 50px blue;
+}
+#div2{
+    border: 2px solid black;
+    width: 500px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 20px gold;
+}
+.sub{
+    border: 2px solid black;
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 0px 10px red;
+    color: white;
+    font-size: 20px;
+}
+#div3{
+    border: 2px solid black;
+    width: 500px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 20px gold;
+}
+.a{
+    border: 2px solid black;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 0px 10px red;
+    color: white;
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}

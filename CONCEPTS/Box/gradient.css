@@ -1,0 +1,18 @@
+#a{
+    font-size: 30px;
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(red, blue, green);
+}
+#b{
+    font-size: 30px;
+    border: 2px solid blue;
+    height: 400px;
+    width: 400px;
+    background-image: radial-gradient(red, orange, yellow);
+}
+nav{
+    display: flex;
+    align-items: center;
+}

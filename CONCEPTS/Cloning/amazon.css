@@ -1,0 +1,178 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: 0 auto;
+    padding: 16px 48px;
+    background-color: #1b242f;
+}
+.pv-logo{
+    background-position: left 0;
+    height: 35px;
+    position: relative;
+    top: 2px;
+    width: 112px;
+}
+#logo{
+    height: 35px;
+    width: 112px;
+}
+.navbar{
+    display: flex;
+    margin: 0px 0px;
+    width: 732px;
+    height: 70px;
+    align-items: center;
+    padding: 0px 10px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: rgb(242, 244, 246/90%);
+    font-size: 17px;
+    margin: 8px 8px;
+}
+.iconBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+}
+.tffButton{
+    text-decoration: none;
+    color: #cfebf4;
+    padding: 8px 25px;
+    background-color: #0f79af;
+    border-radius: 3px;
+    font-size: 17px;
+}
+.tffButton:hover{
+    background-color: #1399de;
+}
+
+/* ************************Cards******************* */
+
+.outercardPrime{
+    height: 380px;
+    background-image: url(./amaz_ph/MLP.jpg);
+    padding: 66px 64px;
+    /* width: 380px; */
+}
+.outercardRent{
+    background-position: center;
+    height: 380px;
+    background-image: url(./amaz_ph/TVOD_MLP_Left.jpg);
+    padding: 50px 64px;
+}
+.outercardFirestick{
+    background-position: center;
+    height: 400px;
+    background-image: url(./amaz_ph/MLP_Template_Image_Left.jpg);
+    padding: 50px 64px;
+}
+.outercardKids{
+    background-position: center;
+    height: 400px;
+    background-image: url(./amaz_ph/IN-kids-30Jan._CB1517304519_.jpg);
+    padding: 50px 64px;
+}
+.innercard{
+    height: 100%;
+    display: flex;
+}
+.cardContentLeft{
+    width: 50%;
+    margin-right: 50%;
+}
+.cardContentRight{
+    width: 50%;
+    margin-left: 55%;
+}
+.cardhead{
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.cardpar{
+    font-size: 1.5rem;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.blueButton{
+    text-decoration: none;
+    color: white;
+    /* padding: 15px 95px; */
+    background-color: #0f79af;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 3px;
+    width: 280px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blueButton:hover{
+    background-color: #1399de;
+}
+
+/* ************************Channels cards***************** */
+
+.outchcard{
+    padding: 10px 5%;
+    height: 535px;
+    background-color: white;
+    color: black;
+}
+.inchcard{
+    height: 100%;
+    display: flex;
+}
+.content-box{
+    margin-top: 24px;
+    padding: 0.5% 0 0;
+    width: 50%;
+    float: left;
+}
+.content-head{
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+}
+.content-para{
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+.chanl-img{
+    width: 184px;
+    height: 126px;
+}
+.footer{
+    padding: 24px;
+    text-align: center;
+}
+.terms{
+    text-decoration: none;
+    color: #0f79af;
+}
+.terms:visited{
+    text-decoration: none;
+}
+.copyrights{
+    color: #949494;
+}
+

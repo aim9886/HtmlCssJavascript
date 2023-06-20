@@ -1,0 +1,12 @@
+div~p{
+    color: blue;
+}
+h1{
+    color: silver;
+}
+div{
+    color: brown;
+}
+div~p{
+    color: skyblue;
+}

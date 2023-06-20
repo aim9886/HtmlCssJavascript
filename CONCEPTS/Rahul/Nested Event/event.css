@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#gp,#pt,#cd{
+    border: 2px solid red;
+}
+#gp{
+    height: 500px;
+    width: 500px;
+}
+#pt{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+}
+#cd{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}

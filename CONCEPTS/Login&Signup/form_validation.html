@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Validation</title>
+  <style>
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Form Validation</h1>
+
+  <form id="myForm" onsubmit="validateForm(event)">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <span id="nameError" class="error"></span>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <span id="emailError" class="error"></span>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <span id="passwordError" class="error"></span>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    function validateForm(event) {
+      event.preventDefault();
+
+      var nameInput = document.getElementById("name");
+      var emailInput = document.getElementById("email");
+      var passwordInput = document.getElementById("password");
+
+      var nameError = document.getElementById("nameError");
+      var emailError = document.getElementById("emailError");
+      var passwordError = document.getElementById("passwordError");
+
+      // Reset error messages
+      nameError.textContent = "";
+      emailError.textContent = "";
+      passwordError.textContent = "";
+
+      // Validate name field
+      if (nameInput.value === "") {
+        nameError.textContent = "Name is required.";
+        nameInput.focus();
+        return false;
+      }
+
+      // Validate email field
+      if (emailInput.value === "") {
+        emailError.textContent = "Email is required.";
+        emailInput.focus();
+        return false;
+      }
+
+      // Validate password field
+      if (passwordInput.value === "") {
+        passwordError.textContent = "Password is required.";
+        passwordInput.focus();
+        return false;
+      }
+
+      // Submit the form if all fields are valid
+      alert("Form submitted successfully!");
+      document.getElementById("myForm").reset();
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+nav{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    padding: 20px 30px 50px 70px;
+    margin: 10px 20px 30px 40px;
+}

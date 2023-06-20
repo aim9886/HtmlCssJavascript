@@ -1,0 +1,32 @@
+#a{
+    display: flex;
+}
+#b{
+    display: flex;
+}
+#c{
+    display: flex;
+}
+#d{
+    display: flex;
+}
+#e{
+    display: flex;
+}
+
+.black{
+    color: white;
+    font-size: 30px;
+    border: 2px solid black;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+.white{
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}

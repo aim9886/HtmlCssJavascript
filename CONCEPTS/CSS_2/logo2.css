@@ -1,0 +1,39 @@
+#a{
+    border-radius: 50px;
+}
+#d{
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px 10px yellow;
+    border-radius: 50px;
+}
+h1{
+    color: black;
+    text-shadow: 10px 0px 10px yellow;
+}
+#a{
+    background-color: green;
+    box-shadow: 0px 0px 10px 10px yellow;
+}
+body{
+    background-color: black;
+}
+nav{
+    background-color: yellow;
+    box-shadow: 0px 10px 10px 10px red;
+    border-radius: 40px;
+}
+img:hover{
+    content: url(./car2.jpg);
+}
+nav:hover{
+    background-color: red;
+}
+#a:hover{
+    background-color: white;
+}
+body:hover{
+    background-color: white;
+}
+img{
+    border-radius: 50px;
+}

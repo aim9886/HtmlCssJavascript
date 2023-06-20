@@ -1,0 +1,12 @@
+#rex{
+    color: blue;
+}
+.man{
+    color: brown;
+}
+#rex,.man,h3{
+    color: cadetblue;
+}
+*{
+    background-color: antiquewhite;
+}

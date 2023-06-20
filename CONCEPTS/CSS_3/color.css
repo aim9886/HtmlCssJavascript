@@ -1,0 +1,16 @@
+#man{
+    border: 2px solid red;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px 50px 100px 100px;
+}
+.rex{
+    border:2px solid blue;
+    color: white;
+    /* display: inline; */
+}
+nav{
+    background-color: black;
+}

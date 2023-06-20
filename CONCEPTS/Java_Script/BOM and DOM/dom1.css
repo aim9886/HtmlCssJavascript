@@ -1,0 +1,13 @@
+body{
+    justify-content: center;
+    display: flex;
+    margin-top: 250px;
+}
+#rex{
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 50px;
+    color: white;
+}

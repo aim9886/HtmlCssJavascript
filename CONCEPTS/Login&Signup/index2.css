@@ -1,0 +1,15 @@
+.container {
+    margin: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  

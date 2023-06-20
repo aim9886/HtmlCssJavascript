@@ -1,0 +1,40 @@
+#a{
+    font-size: 30px;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+#b{
+    font-size: 30px;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: fixed;
+    left: 500px;
+    top: 50px;
+}
+#c{
+    font-size: 30px;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+#d{
+    font-size: 30px;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: static;
+    left: 500px;
+    top: 100px;
+}

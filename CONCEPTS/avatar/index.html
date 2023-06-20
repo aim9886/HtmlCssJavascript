@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Avatar Creator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Avatar Creator</h1>
+    <div class="avatar-container">
+      <div class="avatar" id="avatar"></div>
+      <button onclick="randomizeAvatar()">Randomize</button>
+    </div>
+    <div class="customization">
+      <h2>Customization</h2>
+      <label for="hairstyle">Hairstyle:</label>
+      <select id="hairstyle" onchange="changeHairstyle()">
+        <option value="hairstyle1">Hairstyle 1</option>
+        <option value="hairstyle2">Hairstyle 2</option>
+        <option value="hairstyle3">Hairstyle 3</option>
+      </select>
+      <label for="facialFeature">Facial Feature:</label>
+      <select id="facialFeature" onchange="changeFacialFeature()">
+        <option value="facialFeature1">Facial Feature 1</option>
+        <option value="facialFeature2">Facial Feature 2</option>
+        <option value="facialFeature3">Facial Feature 3</option>
+      </select>
+      <label for="accessory">Accessory:</label>
+      <select id="accessory" onchange="changeAccessory()">
+        <option value="accessory1">Accessory 1</option>
+        <option value="accessory2">Accessory 2</option>
+        <option value="accessory3">Accessory 3</option>
+      </select>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

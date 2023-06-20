@@ -1,0 +1,42 @@
+.glass-container {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  .glass-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .glass-container form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .glass-container label {
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .glass-container input[type="text"],
+  .glass-container input[type="password"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .glass-container input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: grey;
+    cursor: pointer;
+  }

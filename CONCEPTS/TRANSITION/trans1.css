@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    height: 80vh;
+    background: burlywood;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: brown;
+    color: wheat;
+    transition: all 1s ease-in-out 3s;
+    /* transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 3s; */
+}
+h1:hover{
+    transform: rotate(360deg);
+    transform: scaleX(100);
+    transform: skew(160deg);
+}
