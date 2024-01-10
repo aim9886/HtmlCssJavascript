@@ -1,0 +1,8 @@
+Rest parameters and destructuring are two important features in JavaScript
+that allow you to work with arrays and objects in more flexible ways.
+
+
+Combining rest parameters and destructuring can be powerful
+when working with complex data structures in JavaScript functions.
+For example, you can use rest parameters to collect additional arguments,
+and then destructure objects within those arguments for further processing

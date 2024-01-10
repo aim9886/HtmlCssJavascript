@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reduce Method</title>
+</head>
+<body>
+
+    <script>
+
+        let gst=[1000, 2000, 3000, 4000]
+
+        let res=gst.reduce((acc,value)=>{
+            return acc+value
+        },0) // if we give 1 in place of 0 it will add the number into 1 i.e 10000+1=10001
+        console.log(res)
+
+    </script>
+
+</body>
+</html>

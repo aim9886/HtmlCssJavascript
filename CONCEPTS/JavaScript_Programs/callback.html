@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback</title>
+</head>
+<body>
+
+    <script>
+
+        // Function that performs an asynchronous operation and invokes a callback
+function fetchData(callback) {
+    // Simulating an asynchronous API call with setTimeout
+    setTimeout(() => {
+      const data = { name: "John", age: 25 };
+      callback(null, data); // Invoke the callback with the data
+    }, 2000); // Simulating a 2-second delay
+  }
+
+  // Callback function to handle the result
+  function handleData(error, result) {
+    if (error) {
+      console.error("Error:", error);
+    } else {
+      console.log("Data:", result);
+    }
+  }
+
+  // Calling the fetchData function and passing the callback
+  fetchData(handleData);
+
+    </script>
+
+
+</body>
+</html>

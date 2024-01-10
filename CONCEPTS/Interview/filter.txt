@@ -1,0 +1,32 @@
+The `filter()` method is a built-in JavaScript array method
+that is used to create a new array containing elements from the original array
+ that satisfy a specified condition. It does not modify the original array
+  but returns a new array with the filtered elements.
+
+The syntax for the `filter()` method is as follows:
+
+const newArray = array.filter(callback(element[, index[, array]])[, thisArg]);
+
+
+- `callback`: A function that is called for each element in the array. It takes up to three arguments:
+  - `element`: The current element being processed.
+  - `index` (optional): The index of the current element being processed.
+  - `array` (optional): The array on which `filter` was called.
+
+- `thisArg` (optional): An object to which the `this` keyword can refer within the `callback` function.
+
+The `callback` function should return `true` to include the element in the new array or `false`
+ to exclude it.
+
+Here's a simple example using the `filter()` method to filter even numbers from an array:
+
+const numbers = [1, 2, 3, 4, 5, 6];
+
+const evenNumbers = numbers.filter(number => number % 2 === 0);
+
+console.log(evenNumbers); // Output: [2, 4, 6]
+
+
+In this example, the `filter()` method creates a new array `evenNumbers`
+ containing only the even numbers from the `numbers` array, as specified
+  by the condition in the callback function.

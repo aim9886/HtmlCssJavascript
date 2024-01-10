@@ -1,0 +1,102 @@
+
+ <script>
+
+     //   first method to find weather the string is vowel or not
+
+     //   const string=prompt("enter the string")
+     //   string=string.toLocaleLowerCase()
+     //   if(string=='a'|| string=='e' || string=='i' || string=='o' || string=='u'){
+     //       console.log(`${string} is vowel`)
+     //   } else {
+     //       console.log(`${string} is not vowel`)
+     //   }
+
+
+     ///////////////////////////////////////////////////////////////////////////////////////////
+
+
+     // second method to find number of vowels
+
+     // var string=prompt("enter the string")
+     // const vowels=['a','e','i','o','u']
+     // const countVowel=(str)=>{
+     //   var count=0;
+      //  for(let letter of str.toLowerCase()){
+      //      if(vowels.includes(letter)){
+      //          count++
+      //      }
+     //   }
+      //  return count
+    // }
+    // console.log(countVowel(string))
+
+    ///////////////////////////////////////////////////////////////////////////////////////////
+
+    // Swap two variables without using the third variable
+
+    // let a=90;
+    // let b=13;
+    // with using third variable
+
+    // let temp=a;
+    // a=b
+    // b=temp
+
+    // without using third variable
+
+    // [a,b]=[b,a]
+    // console.log(`value of a is ${a} and value of b is ${b}`)
+
+    //////////////////////////////////////////////////////////////////////////////////////////
+
+
+    // How to convert celsius to fahrenheit or vice versa
+
+    // celsius to fahrenheit formula
+
+    // fahrenheit = celsius*1.8+32
+
+    // fahrenheit to celsius formula
+
+    // celsius=5/9 * (fahrenheit-32)
+
+    // celsius to fahrenheit
+
+    // var input=prompt("please enter value to convert")
+    // var celsiusToFahrenheit=input*1.8+32
+    // console.log(celsiusToFahrenheit)
+
+    // fahrenheit to celsius
+
+    // var fahrenheittoCelsius=5/9*(input-32)
+    // console.log(fahrenheittoCelsius)
+
+    ///////////////////////////////////////////////////////////////////////////
+
+    // Check Armstrong number or not
+
+    var number=prompt("Enter the number")
+    var temp=number;
+    var lengthOfDigit=number.toString().length
+    var sum=0;
+    while(temp>0){
+        //371/10=1 modulus
+        var digit=temp%10
+        // console.log(digit);
+        sum+=digit**lengthOfDigit;
+        // console.log("SUM"+sum);
+        temp=parseInt(temp/10);
+        // console.log(temp);
+        // console.log("------------");
+    }
+    if(sum==number){
+        console.log(`${number} is an Armstrong number`);
+    }
+    else
+    {
+        console.log(`${number} is not an Armstrong number`);
+    }
+
+    /////////////////////////////////////////////////////////////////////////////////////////
+
+    </script>

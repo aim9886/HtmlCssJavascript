@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic UI Example</title>
+    <style>
+      h1 {
+        color: blue;
+      }
+      img {
+        width: 200px;
+        height: 200px;
+      }
+      p {
+        font-size: 16px;
+      }
+    </style>
+    <script>
+      function changeTextColor() {
+        var heading = document.querySelector('h1');
+        heading.style.color = 'red';
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Welcome to my website!</h1>
+    <img src="image1.jpg" alt="Example Image">
+    <p>This is a paragraph of text.</p>
+    <button onclick="changeTextColor()">Change Text Color</button>
+  </body>
+</html>

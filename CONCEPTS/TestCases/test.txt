@@ -1,0 +1,20 @@
+The line `const regex = /\d+/g;` defines a regular expression in JavaScript.
+ Let me break it down for you:
+
+1. `/`: The forward slashes `/` are used to enclose the regular expression pattern.
+ In JavaScript, regular expressions are typically written between two forward slashes.
+
+2. `\d`: This is a special character in regular expressions that matches any digit (0-9).
+
+3. `+`: The `+` quantifier is used to match one or more occurrences of the
+ preceding character or group. In this case, it means one or more digits.
+
+4. `g`: This is a flag that stands for "global." It indicates that the regular
+ expression should be applied globally to the input string, not just stopping at
+  the first match. It allows the regular expression to find all matches in the input string.
+
+So, the regular expression `/d+/g` is used to find one or more consecutive digits in a text.
+ When applied to a string, it will find all occurrences of numbers in the string.
+
+For example, if you have the string "I have 2 cats and 3 dogs," applying this regular
+ expression would match and extract the numbers "2" and "3" from the string.

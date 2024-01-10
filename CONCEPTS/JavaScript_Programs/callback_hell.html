@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CallBack Hell</title>
+</head>
+<body>
+
+    <script>
+
+      // Callback hell example
+asyncOperation1(function (error, result1) {
+    if (error) {
+      console.error("Error:", error);
+    } else {
+      asyncOperation2(result1, function (error, result2) {
+        if (error) {
+          console.error("Error:", error);
+        } else {
+          asyncOperation3(result2, function (error, result3) {
+            if (error) {
+              console.error("Error:", error);
+            } else {
+              console.log("Result:", result3);
+            }
+          });
+        }
+      });
+    }
+  });
+
+  // It is showing an error once check in chatgpt
+
+
+    </script>
+
+</body>
+</html>
