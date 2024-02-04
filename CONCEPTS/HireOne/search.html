@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Page</title>
+    <link rel="stylesheet" href="./css/search.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/material-design-icons/iconfont/material-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="top">
+      <div class="navbar">
+        <h1 class="logo">HIREONE</h1>
+        <ul class="menu">
+          <li class="menu-item"><a href="index.html#home">Home</a></li>
+          <li class="menu-item"><a href="index.html#about">About</a></li>
+          <li class="menu-item"><a href="index.html#benefits">Benefits</a></li>
+          <li class="menu-item"><a href="index.html#team">Contact Us</a></li>
+        </ul>
+        <button class="sign-in-btn" onclick="openSignInPage()">
+          <div class="mui-icon">
+            <i class="material-icons material-icons-outlined">account_circle</i>
+          </div>
+          Sign In
+        </button>
+      </div>
+    </div>
+
+    <div class="search-container">
+      <div class="title">
+        Search
+        <span>Students</span>
+      </div>
+      <div class="description">
+        Find the perfect fit effortlessly with our innovative hiring candidates
+        portal. Join us today and unlock the potential of your organization.
+      </div>
+      <div class="search-bar">
+        <div class="search-icon">
+          <i class="material-icons material-icons-outlined">search</i>
+        </div>
+        <input type="text" id="searchInput" placeholder="Search..." />
+        <div class="search-filter">
+          <select id="searchFilter">
+            <option value="location">Location</option>
+            <option value="skills">Skills</option>
+            <option value="graduationDate">Graduation Date</option>
+          </select>
+          <div class="filter-icon">
+            <i class="material-icons material-icons-outlined">filter_list</i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main id="cardContainer"></main>
+
+    <script src="./js/search.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/data.json"></script>
+  </body>
+</html>

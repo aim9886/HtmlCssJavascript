@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HireOne</title>
+  <link rel="stylesheet" href="./css/index.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/material-design-icons/iconfont/material-icons.min.css"
+  />
+</head>
+
+<body>
+  <div class="container">
+    <div class="top">
+      <div class="navbar">
+        <h1 class="logo">HIREONE</h1>
+        <div class="navbar-toggle">
+          <i class="material-icons">menu</i>
+        </div>
+        <ul class="menu">
+          <li class="menu-item"><a href="#home">Home</a></li>
+          <li class="menu-item"><a href="#about">About</a></li>
+          <li class="menu-item"><a href="#features">Features</a></li>
+          <li class="menu-item"><a href="#contact">Contact Us</a></li>
+        </ul>
+        <button class="sign-in-btn" onclick="openSignInPage()">
+          <div class="mui-icon">
+            <i class="material-icons material-icons-outlined">account_circle</i>
+          </div>
+          Sign In
+        </button>
+      </div>
+      <div class="bg-container">
+        <img
+          class="background"
+          src="./Images/Background.svg"
+          alt="Background"
+        />
+        <div class="header-content">
+          <h2 class="title">
+            Unlock Your Potential - <span>Discover</span> Top Talent for
+            <span>Your Team</span> 🚀
+          </h2>
+          <p class="description">
+            Streamline your hiring process and discover top candidates for your
+            team. Find the perfect fit effortlessly with our innovative hiring
+            candidates portal. Join us today and unlock the potential of your
+            organization.
+          </p>
+          <button class="hire-btn" onclick="openSearchPage()">
+            Hire Candidates
+            <div class="mui-icon">
+              <i class="material-icons material-icons-outlined">arrow_forward</i>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <section id="about" class="about-section">
+      <div class="bg-container">
+        <img class="background" src="./Images/Background.svg" alt="Background" />
+        <div class="about-content">
+          <h2 class="section-title">About Us</h2>
+          <p>
+            HireOne is a leading platform that connects employers with top talent. We
+            strive to streamline the hiring process and help organizations find the
+            perfect candidates for their teams. Our innovative hiring candidates portal
+            simplifies the recruitment process and ensures that employers can unlock
+            the full potential of their organizations.
+          </p>
+          <p>
+            With HireOne, you can discover top talent effortlessly, saving time and
+            resources. We provide a user-friendly platform that allows you to browse
+            through a pool of highly qualified candidates and find the perfect fit for
+            your organization. Join us today and revolutionize your hiring process.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features-section">
+      <div class="bg-container">
+        <h2 class="section-title" style="margin-bottom: 40px;">Features</h2>
+
+        <img
+          class="background"
+          src="./Images/Background.svg"
+          alt="Background"
+        />
+      <div id="feature-container" class="feature-container"></div>
+      </div>
+    </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2 class="section-title" style="font-size: 30px">Contact Us</h2>
+      <div id="contact-content" class="contact-content">
+        <p>
+          For any inquiries or support, please feel free to reach out to us. Our team
+          will be happy to assist you.
+        </p>
+        <div id="contact-info" class="contact-info"></div>
+      </div>
+    </section>
+
+    <div class="content"></div>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+</html>

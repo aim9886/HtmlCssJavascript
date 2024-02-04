@@ -1,0 +1,187 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "location": "New York",
+        "graduationDate": "2022-05-15",
+        "skills": ["Java", "Python", "HTML", "CSS"],
+        "image": "https://images.unsplash.com/photo-1611637576109-b6f76185ec9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Ym95c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "location": "San Francisco",
+        "graduationDate": "2022-06-30",
+        "skills": ["JavaScript", "React", "Node.js"],
+        "image": "https://images.unsplash.com/photo-1519764622345-23439dd774f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym95c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 3,
+        "name": "Michael Johnson",
+        "location": "Chicago",
+        "graduationDate": "2023-01-10",
+        "skills": ["C++", "Python", "SQL"],
+        "image": "https://images.unsplash.com/photo-1546512565-39d4dc75e556?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 4,
+        "name": "Emily Williams",
+        "location": "Los Angeles",
+        "graduationDate": "2023-03-20",
+        "skills": ["Java", "HTML", "CSS"],
+        "image": "https://images.unsplash.com/photo-1602546005687-372f3c6455ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 5,
+        "name": "David Lee",
+        "location": "Boston",
+        "graduationDate": "2022-12-31",
+        "skills": ["Python", "JavaScript", "React"],
+        "image": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 6,
+        "name": "Sarah Wilson",
+        "location": "New York",
+        "graduationDate": "2022-08-18",
+        "skills": ["Python", "HTML", "CSS"],
+        "image": "https://images.unsplash.com/photo-1620228922597-cca58f177310?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 7,
+        "name": "Robert Johnson",
+        "location": "San Francisco",
+        "graduationDate": "2023-02-28",
+        "skills": ["JavaScript", "React", "Node.js"],
+        "image": "https://media.istockphoto.com/id/1448069480/photo/happy-young-indian-student-boy-working-on-laptop-and-studying-in-college-library-with.webp?b=1&s=170667a&w=0&k=20&c=5t956TDdrYeVbBpMnfzr0-RZK-ZaWpzMR2mcvCH5Nh8="
+      },
+      {
+        "id": 8,
+        "name": "Michelle Davis",
+        "location": "Chicago",
+        "graduationDate": "2023-05-05",
+        "skills": ["Java", "Python", "SQL"],
+        "image": "https://images.unsplash.com/photo-1551022372-0bdac482b9d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Ym95c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 9,
+        "name": "Daniel Thompson",
+        "location": "Los Angeles",
+        "graduationDate": "2022-09-10",
+        "skills": ["Python", "JavaScript", "React"],
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 10,
+        "name": "Sophia Anderson",
+        "location": "Boston",
+        "graduationDate": "2023-04-25",
+        "skills": ["Java", "HTML", "CSS"],
+        "image": "https://images.unsplash.com/photo-1617212321775-32af775d6c44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 11,
+        "name": "Adam Clark",
+        "location": "New York",
+        "graduationDate": "2023-03-15",
+        "skills": ["Python", "JavaScript", "SQL"],
+        "image": "https://images.unsplash.com/photo-1613852348851-df1739db8201?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 12,
+        "name": "Olivia Turner",
+        "location": "San Francisco",
+        "graduationDate": "2022-10-20",
+        "skills": ["Java", "Python", "HTML", "CSS"],
+        "image": "https://images.unsplash.com/photo-1604088122238-48cac512c0d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 13,
+        "name": "Ethan Hall",
+        "location": "Chicago",
+        "graduationDate": "2023-07-01",
+        "skills": ["JavaScript", "React", "Node.js"],
+        "image": "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 14,
+        "name": "Ava Phillips",
+        "location": "Los Angeles",
+        "graduationDate": "2022-11-30",
+        "skills": ["Python", "HTML", "CSS"],
+        "image": "https://images.unsplash.com/photo-1605192554106-d549b1b975cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 15,
+        "name": "William Martinez",
+        "location": "Boston",
+        "graduationDate": "2023-06-05",
+        "skills": ["Java", "Python", "SQL"],
+        "image": "https://images.unsplash.com/photo-1619622376461-28732c2b88c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 16,
+        "name": "Sophie Walker",
+        "location": "New York",
+        "graduationDate": "2023-04-15",
+        "skills": ["C++", "Python", "HTML"],
+        "image": "https://images.unsplash.com/photo-1576695444267-40cdd214f06e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 17,
+        "name": "Henry Brown",
+        "location": "San Francisco",
+        "graduationDate": "2022-12-31",
+        "skills": ["JavaScript", "React", "Node.js"],
+        "image": "https://images.unsplash.com/photo-1523469615101-40c35985fb90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 18,
+        "name": "Lily Taylor",
+        "location": "Chicago",
+        "graduationDate": "2022-09-20",
+        "skills": ["Java", "Python", "SQL"],
+        "image": "https://images.unsplash.com/photo-1614031690812-c20810796cb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 19,
+        "name": "Samuel Wilson",
+        "location": "Los Angeles",
+        "graduationDate": "2023-01-01",
+        "skills": ["Python", "JavaScript", "React"],
+        "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      {
+        "id": 20,
+        "name": "Grace Turner",
+        "location": "Boston",
+        "graduationDate": "2023-05-10",
+        "skills": ["Java", "HTML", "CSS"],
+        "image": "https://images.unsplash.com/photo-1609952542840-df54cfddc3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fGJveXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+      }
+    ],
+    "features": [
+      {
+        "name": "Seamless Login Features",
+        "desc": "Effortlessly log in and access your account with our seamless login experience."
+      },
+      {
+        "name": "Advanced Candidate Search",
+        "desc": "Utilize our advanced search capabilities to find the perfect candidates for your team."
+      },
+      {
+        "name": "Streamlined Hiring Process",
+        "desc": "Simplify your hiring process and save time with our streamlined and efficient workflow."
+      },
+      {
+        "name": "Intuitive User Interface",
+        "desc": "Experience a user-friendly interface that makes navigating our platform a breeze."
+      }
+    ],
+    "contact": {
+      "phone": "123-456-7890",
+      "email": "info@hireone.com",
+      "address": "123 Main St, Anytown, USA"
+    }
+  }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./css/signin.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <h1 class="logo">HIREONE</h1>
+        <div class="top">
+          <div class="back-button" onclick="goBack()">
+            <i class="material-icons">arrow_back</i>
+          </div>
+          <div class="title">Welcome Back 👋</div>
+          <div class="subtitle">Welcome Back, Please Sign in to continue</div>
+        </div>
+        <form class="form">
+          <div class="outlined-input">
+            <div class="mui-icon">
+              <i class="material-icons">email_rounded</i>
+            </div>
+            <input class="input" type="text" placeholder="Email" />
+          </div>
+          <div class="outlined-input">
+            <div class="mui-icon">
+              <i class="material-icons">password_rounded</i>
+            </div>
+            <input
+              id="password-input"
+              class="input"
+              type="password"
+              placeholder="Password"
+            />
+            <div class="mui-icon">
+              <i class="material-icons" id="show-password-icon">visibility</i>
+              <i class="material-icons" id="hide-password-icon"
+                >visibility_off</i
+              >
+            </div>
+          </div>
+          <p class="forgot-password">Forgot Password?</p>
+          <button class="button" disabled>Sign In</button>
+        </form>
+        <p class="text">
+          Still don't have an account? <span class="text-button">Sign Up</span>
+        </p>
+      </div>
+    </div>
+    <script src="./js/signin.js"></script>
+  </body>
+</html>
